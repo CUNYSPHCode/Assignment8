@@ -23,10 +23,32 @@ Check your work by knitting the document.
 
 1. Create a level 2 header below in Markdown with the name "Answer 1".
 
+##Answer 1 
 
 2. Add an unordered Markdown list of your favorite food dishes and
 add their ingredients as sub-items in the list. You should enter at least two
 dishes with two ingredients each.
+
+*Chicken Curry
+*Potatoes
+*Masala
+*Tumeric
+*Curry powder
+*Salt
+*Pepper
+*Cumin
+*Paprika
+
+*Rasta Pasta
+*Heavy cream
+*Bell peppers
+*Jamaican seasoning
+*Garlic
+*Onion
+*Scallion
+*Salt
+*Coconut Oil
+
 
 
 3. Insert an R code chunk below. Show the `summary` of the `Orange` dataset.
@@ -34,13 +56,20 @@ Run a linear regression using the `lm` function to predict `circumference` from
 `age` and assign the result. Show the `summary` of the fit object that you
 assigned.
 
+data("orange")
+summary(orange)
+fit <- lm(circumference~age, data= orange)
+summary(fit)
 
 4. Add an RMarkdown weblink (in link format) below to your favorite R reference
 website.
 
+[Adding R markdown weblink] https://intro2r.com/citing-r.html
+
 
 5. Replace the author field in the `yaml` header with your name and then
 successfully `knit` the RMarkdown document into a Word document.
+
 
 
 6. Follow the [Pull Request instructions on GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
