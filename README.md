@@ -15,4 +15,4 @@ A successful Pull Request will shop up in the `Pull requests` tab above.
 See the [Pull Request instructions on GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
 for more information. 
 
-_Note_. You should have created an account before attempting to Fork the repository.bhbb
+_Note_. You should have created an account before attempting to Fork the repository.bhbbd
