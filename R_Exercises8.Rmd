@@ -67,10 +67,10 @@ successfully `knit` the RMarkdown document into a Word document.
 =
  title: "Distill for R Markdown"
  author:
-   - name: "Ananya"
-     url: https://github.com/sarkerananya409
-     affiliation: RStudio
-     affiliation_url: https://www.rstudio.com
+   - name: "Joyessa"
+    
+   affiliation: RStudio
+    affiliation_url: https://www.rstudio.com
  output: distill::distill_article
 
 
