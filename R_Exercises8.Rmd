@@ -55,7 +55,7 @@ summary(fit0)
 4. Add an RMarkdown weblink (in link format) below to your favorite R reference
 website.
 
-<https://swirlstats.com/students.html> 
+[Swirlstats](https://swirlstats.com/students.html)
 
 5. Replace the author field in the `yaml` header with your name and then
 successfully `knit` the RMarkdown document into a Word document.
